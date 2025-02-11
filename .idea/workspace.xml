@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="refactoring, added new credential tests">
+    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="added css and xpath selectors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/module_4/LoginWithValidCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/module_4/LoginWithValidCredentials.java" afterDir="false" />
     </list>
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739275011255</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added css and xpath selectors">
+      <created>1739276665015</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739276665015</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +221,7 @@
     <MESSAGE value="add new tests using different browsers and making screenshots" />
     <MESSAGE value="add command to close cookies pop-up window before grabbing a screenshot" />
     <MESSAGE value="refactoring, added new credential tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring, added new credential tests" />
+    <MESSAGE value="added css and xpath selectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="added css and xpath selectors" />
   </component>
 </project>
