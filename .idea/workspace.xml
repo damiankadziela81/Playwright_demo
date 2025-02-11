@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="add new tests using different browsers and making screenshots">
+    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="add command to close cookies pop-up window before grabbing a screenshot">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/common/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_3/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_4/LoginWithValidCredentials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AllBrowserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/module_3/AllBrowserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/firstTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +46,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AllBrowserTest.shouldOpenSupportedBrowsersFirefox">
+  <component name="RunManager" selected="JUnit.LoginWithValidCredentials.shouldLoginWithValidCredentials">
     <configuration name="AllBrowserTest.shouldOpenSupportedBrowsersChromium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AllBrowserTest" />
+      <option name="PACKAGE_NAME" value="org.example.module_3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_3.AllBrowserTest" />
       <option name="METHOD_NAME" value="shouldOpenSupportedBrowsersChromium" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -61,30 +67,49 @@
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AllBrowserTest" />
+      <option name="PACKAGE_NAME" value="org.example.module_3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_3.AllBrowserTest" />
       <option name="METHOD_NAME" value="shouldOpenSupportedBrowsersFirefox" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="firstTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.shouldReturnCorrectPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.firstTest" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <option name="PACKAGE_NAME" value="org.example.module_3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_3.FirstTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectPageTitle" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginWithValidCredentials.shouldLoginWithValidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.module_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.module_4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_4.LoginWithValidCredentials" />
+      <option name="METHOD_NAME" value="shouldLoginWithValidCredentials" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="PWDEBUG" value="1" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,7 +118,7 @@
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +130,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.AllBrowserTest.shouldOpenSupportedBrowsersChromium" />
+      <item itemvalue="JUnit.AllBrowserTest.shouldOpenSupportedBrowsersFirefox" />
+      <item itemvalue="JUnit.FirstTest.shouldReturnCorrectPageTitle" />
+      <item itemvalue="JUnit.firstTest.test1" />
+      <item itemvalue="JUnit.LoginWithValidCredentials.shouldLoginWithValidCredentials" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginWithValidCredentials.shouldLoginWithValidCredentials" />
+        <item itemvalue="JUnit.FirstTest.shouldReturnCorrectPageTitle" />
         <item itemvalue="JUnit.AllBrowserTest.shouldOpenSupportedBrowsersFirefox" />
         <item itemvalue="JUnit.AllBrowserTest.shouldOpenSupportedBrowsersChromium" />
         <item itemvalue="JUnit.firstTest.test1" />
-        <item itemvalue="JUnit.firstTest.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739270049764</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add command to close cookies pop-up window before grabbing a screenshot">
+      <created>1739270465171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739270465171</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +210,7 @@
     <MESSAGE value="enabled headless with slow mode" />
     <MESSAGE value="renamed class and method name" />
     <MESSAGE value="add new tests using different browsers and making screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new tests using different browsers and making screenshots" />
+    <MESSAGE value="add command to close cookies pop-up window before grabbing a screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add command to close cookies pop-up window before grabbing a screenshot" />
   </component>
 </project>
