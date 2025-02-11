@@ -1,6 +1,5 @@
 package org.example.module_4;
 
-import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
 import org.example.common.BaseTest;
 import org.junit.jupiter.api.Test;
@@ -14,11 +13,9 @@ class LoginWithValidCredentials extends BaseTest {
         page.navigate("https://the-internet.herokuapp.com/login");
         page.fill("#username","tomsmith"); // id=username == #username
         page.fill("id=password","SuperSecretPassword!");
-        // page.click("text=Login");
-        Locator submitButton = page.locator("text=Login").last(); // "text=Login" == "'Login'"
-        submitButton.click();
-
+        page.click("#login button"); // css selector - button in the login form
         PlaywrightAssertions.assertThat(page.locator("text=You logged into a secure area!")).isVisible();
-
+        page.click("//i[contains(text(), 'Logout')]"); // xpath selector
+        PlaywrightAssertions.assertThat(page.locator("text=You logged out of the secure area!")).isVisible();
     }
 }
