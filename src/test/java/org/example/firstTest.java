@@ -7,10 +7,10 @@ import com.microsoft.playwright.Playwright;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class firstTest {
+class FirstTest {
 
     @Test
-    void test1() {
+    void shouldReturnCorrectPageTitle() {
         Playwright playwright = Playwright.create();
         Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(1000));
         Page page = browser.newPage();
