@@ -3,6 +3,7 @@ package org.example;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.options.AriaRole;
 import org.junit.jupiter.api.Test;
 
 import java.nio.file.Paths;
@@ -16,6 +17,7 @@ class AllBrowserTest {
         Page page = browser.newPage();
 
         page.navigate("https://www.whatismybrowser.com/");
+        page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Consent")).click();
         page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("screenshots/chromium.png")));
     }
 
@@ -26,6 +28,7 @@ class AllBrowserTest {
         Page page = browser.newPage();
 
         page.navigate("https://www.whatismybrowser.com/");
+        page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Consent")).click();
         page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("screenshots/firefox.png")));
     }
 }
