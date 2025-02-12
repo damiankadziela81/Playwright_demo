@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="changed locators to recommended by PW docs">
+    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="added more simple tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/TableUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_10TableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_1PageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_2InputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_3TextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_4DropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_5CheckboxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_7RadiobuttonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_8DynamicElementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_9KeyboardMouseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/module_4/LoginWithValidCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/module_4/LoginWithValidCredentials.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,107 +51,101 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidPassword">
-    <configuration name="FirstTest.shouldReturnCorrectPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Practice.shouldVerifyAllProductPricesAbove15">
+    <configuration name="Practice.shouldVerifyAllProductPricesAbove15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.common.*" />
+          <option name="PATTERN" value="org.example.module_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_3" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_3.FirstTest" />
-      <option name="METHOD_NAME" value="shouldReturnCorrectPageTitle" />
+      <option name="PACKAGE_NAME" value="org.example.module_6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_6.Practice" />
+      <option name="METHOD_NAME" value="shouldVerifyAllProductPricesAbove15" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginWithValidCredentials.shouldLoginWithValidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.shouldVerifyAllProductsContainsPrinted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.module_4.*" />
+          <option name="PATTERN" value="org.example.module_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_4" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_4.LoginWithValidCredentials" />
-      <option name="METHOD_NAME" value="shouldLoginWithValidCredentials" />
-      <option name="TEST_OBJECT" value="method" />
-      <envs>
-        <env name="PWDEBUG" value="1" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginWithValidCredentials.shouldNotLoginWithInvalidPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.module_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_4" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_4.LoginWithValidCredentials" />
-      <option name="METHOD_NAME" value="shouldNotLoginWithInvalidPassword" />
+      <option name="PACKAGE_NAME" value="org.example.module_6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_6.Practice" />
+      <option name="METHOD_NAME" value="shouldVerifyAllProductsContainsPrinted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginWithValidCredentials.shouldNotLoginWithInvalidUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.storeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.module_4.*" />
+          <option name="PATTERN" value="org.example.module_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_4" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_4.LoginWithValidCredentials" />
-      <option name="METHOD_NAME" value="shouldNotLoginWithInvalidUsername" />
+      <option name="PACKAGE_NAME" value="org.example.module_6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_6.Practice" />
+      <option name="METHOD_NAME" value="storeTest" />
       <option name="TEST_OBJECT" value="method" />
-      <envs>
-        <env name="PWDEBUG" value="1" />
-      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginWithValidCredentials.shouldNotLoginWithoutCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_10TableTest.shouldReturnAllTextFromTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.module_4.*" />
+          <option name="PATTERN" value="org.example.module_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_4" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_4.LoginWithValidCredentials" />
-      <option name="METHOD_NAME" value="shouldNotLoginWithoutCredentials" />
+      <option name="PACKAGE_NAME" value="org.example.module_6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_6._10TableTest" />
+      <option name="METHOD_NAME" value="shouldReturnAllTextFromTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_10TableTest.shouldReturnAllUsersFromTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.module_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.module_6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_6._10TableTest" />
+      <option name="METHOD_NAME" value="shouldReturnAllUsersFromTable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidPassword" />
-      <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithoutCredentials" />
-      <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidUsername" />
-      <item itemvalue="JUnit.FirstTest.shouldReturnCorrectPageTitle" />
-      <item itemvalue="JUnit.LoginWithValidCredentials.shouldLoginWithValidCredentials" />
+      <item itemvalue="JUnit.Practice.shouldVerifyAllProductPricesAbove15" />
+      <item itemvalue="JUnit.Practice.shouldVerifyAllProductsContainsPrinted" />
+      <item itemvalue="JUnit.Practice.storeTest" />
+      <item itemvalue="JUnit._10TableTest.shouldReturnAllTextFromTable" />
+      <item itemvalue="JUnit._10TableTest.shouldReturnAllUsersFromTable" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidPassword" />
-        <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidUsername" />
-        <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithoutCredentials" />
-        <item itemvalue="JUnit.LoginWithValidCredentials.shouldLoginWithValidCredentials" />
-        <item itemvalue="JUnit.FirstTest.shouldReturnCorrectPageTitle" />
+        <item itemvalue="JUnit.Practice.shouldVerifyAllProductPricesAbove15" />
+        <item itemvalue="JUnit.Practice.shouldVerifyAllProductsContainsPrinted" />
+        <item itemvalue="JUnit.Practice.storeTest" />
+        <item itemvalue="JUnit._10TableTest.shouldReturnAllUsersFromTable" />
+        <item itemvalue="JUnit._10TableTest.shouldReturnAllTextFromTable" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739280035525</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added more simple tests">
+      <created>1739351173713</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739351173713</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +244,7 @@
     <MESSAGE value="refactoring, added new credential tests" />
     <MESSAGE value="added css and xpath selectors" />
     <MESSAGE value="changed locators to recommended by PW docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed locators to recommended by PW docs" />
+    <MESSAGE value="added more simple tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more simple tests" />
   </component>
 </project>
