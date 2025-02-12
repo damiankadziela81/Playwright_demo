@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="added css and xpath selectors">
+    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="changed locators to recommended by PW docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/module_4/LoginWithValidCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/module_4/LoginWithValidCredentials.java" afterDir="false" />
     </list>
@@ -34,46 +34,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.LoginWithValidCredentials.shouldLoginWithValidCredentials">
-    <configuration name="AllBrowserTest.shouldOpenSupportedBrowsersChromium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_3" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_3.AllBrowserTest" />
-      <option name="METHOD_NAME" value="shouldOpenSupportedBrowsersChromium" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllBrowserTest.shouldOpenSupportedBrowsersFirefox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_3" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_3.AllBrowserTest" />
-      <option name="METHOD_NAME" value="shouldOpenSupportedBrowsersFirefox" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidPassword">
     <configuration name="FirstTest.shouldReturnCorrectPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
@@ -109,36 +77,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="firstTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginWithValidCredentials.shouldNotLoginWithInvalidPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.common.*" />
+          <option name="PATTERN" value="org.example.module_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.firstTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="org.example.module_4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_4.LoginWithValidCredentials" />
+      <option name="METHOD_NAME" value="shouldNotLoginWithInvalidPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginWithValidCredentials.shouldNotLoginWithInvalidUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.module_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.module_4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_4.LoginWithValidCredentials" />
+      <option name="METHOD_NAME" value="shouldNotLoginWithInvalidUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="PWDEBUG" value="1" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginWithValidCredentials.shouldNotLoginWithoutCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.module_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.module_4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_4.LoginWithValidCredentials" />
+      <option name="METHOD_NAME" value="shouldNotLoginWithoutCredentials" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AllBrowserTest.shouldOpenSupportedBrowsersChromium" />
-      <item itemvalue="JUnit.AllBrowserTest.shouldOpenSupportedBrowsersFirefox" />
+      <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidPassword" />
+      <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithoutCredentials" />
+      <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidUsername" />
       <item itemvalue="JUnit.FirstTest.shouldReturnCorrectPageTitle" />
-      <item itemvalue="JUnit.firstTest.test1" />
       <item itemvalue="JUnit.LoginWithValidCredentials.shouldLoginWithValidCredentials" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidPassword" />
+        <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithInvalidUsername" />
+        <item itemvalue="JUnit.LoginWithValidCredentials.shouldNotLoginWithoutCredentials" />
         <item itemvalue="JUnit.LoginWithValidCredentials.shouldLoginWithValidCredentials" />
         <item itemvalue="JUnit.FirstTest.shouldReturnCorrectPageTitle" />
-        <item itemvalue="JUnit.AllBrowserTest.shouldOpenSupportedBrowsersFirefox" />
-        <item itemvalue="JUnit.AllBrowserTest.shouldOpenSupportedBrowsersChromium" />
-        <item itemvalue="JUnit.firstTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739276665015</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed locators to recommended by PW docs">
+      <created>1739280035525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739280035525</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +232,7 @@
     <MESSAGE value="add command to close cookies pop-up window before grabbing a screenshot" />
     <MESSAGE value="refactoring, added new credential tests" />
     <MESSAGE value="added css and xpath selectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="added css and xpath selectors" />
+    <MESSAGE value="changed locators to recommended by PW docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed locators to recommended by PW docs" />
   </component>
 </project>
