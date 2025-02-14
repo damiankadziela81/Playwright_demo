@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="added module_6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/common/BaseTestWithBasicAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/common/BaseTestWithRecording.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/common/BaseTestWithTrace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_10WindowsHandlingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_11StorageStateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_12JavaScriptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_1IFrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_2ShadowDOMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_3DialogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_4DownloadFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_5UploadFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_6ScreenshotsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_7VideoRecordingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_8TracingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_9BasicAuthTest.java" afterDir="false" />
+    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="added module_7">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/SendContactUsFormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/ContactUsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/sections/ContactUsFormSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/sections/TopMenuSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Practice.shouldDisplaySuccessMessageTest">
+  <component name="RunManager" selected="JUnit.SendContactUsFormTest.shouldFillAndSendContactFormTest">
     <configuration name="Practice.shouldDisplaySuccessMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
@@ -90,6 +79,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SendContactUsFormTest.shouldFillAndSendContactFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.module_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.module_8" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_8.SendContactUsFormTest" />
+      <option name="METHOD_NAME" value="shouldFillAndSendContactFormTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendContactUsFormTest.shouldShowErrorWhenTryingSendEmptyForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playwright_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.module_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.module_8" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_8.SendContactUsFormTest" />
+      <option name="METHOD_NAME" value="shouldShowErrorWhenTryingSendEmptyForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_12JavaScriptTest.evalOnSelectorAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
@@ -106,52 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_12JavaScriptTest.evalOnSelectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.module_7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_7" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_7._12JavaScriptTest" />
-      <option name="METHOD_NAME" value="evalOnSelectorTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_12JavaScriptTest.evaluateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="playwright_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.module_7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_7" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_7._12JavaScriptTest" />
-      <option name="METHOD_NAME" value="evaluateTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.Practice.shouldDisplaySuccessMessageTest" />
       <item itemvalue="JUnit.Practice.shouldNotSendAMessageTest" />
+      <item itemvalue="JUnit.SendContactUsFormTest.shouldFillAndSendContactFormTest" />
+      <item itemvalue="JUnit.SendContactUsFormTest.shouldShowErrorWhenTryingSendEmptyForm" />
       <item itemvalue="JUnit._12JavaScriptTest.evalOnSelectorAllTest" />
-      <item itemvalue="JUnit._12JavaScriptTest.evalOnSelectorTest" />
-      <item itemvalue="JUnit._12JavaScriptTest.evaluateTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SendContactUsFormTest.shouldFillAndSendContactFormTest" />
+        <item itemvalue="JUnit.SendContactUsFormTest.shouldShowErrorWhenTryingSendEmptyForm" />
         <item itemvalue="JUnit.Practice.shouldDisplaySuccessMessageTest" />
         <item itemvalue="JUnit.Practice.shouldNotSendAMessageTest" />
         <item itemvalue="JUnit._12JavaScriptTest.evalOnSelectorAllTest" />
-        <item itemvalue="JUnit._12JavaScriptTest.evalOnSelectorTest" />
-        <item itemvalue="JUnit._12JavaScriptTest.evaluateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739367329910</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added module_7">
+      <created>1739531277920</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739531277920</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +255,7 @@
     <MESSAGE value="changed locators to recommended by PW docs" />
     <MESSAGE value="added more simple tests" />
     <MESSAGE value="added module_6" />
-    <option name="LAST_COMMIT_MESSAGE" value="added module_6" />
+    <MESSAGE value="added module_7" />
+    <option name="LAST_COMMIT_MESSAGE" value="added module_7" />
   </component>
 </project>
