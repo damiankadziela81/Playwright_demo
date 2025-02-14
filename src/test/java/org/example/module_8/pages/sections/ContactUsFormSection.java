@@ -4,6 +4,7 @@ import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 import lombok.Getter;
+import org.example.module_8.dto.ContactUsDTO;
 import org.example.module_8.pages.BasePage;
 
 import java.nio.file.Paths;
@@ -38,28 +39,38 @@ public class ContactUsFormSection extends BasePage {
         return this;
     }
 
-    public ContactUsFormSection selectSubjectHeading(String option) {
+    private ContactUsFormSection selectSubjectHeading(String option) {
         subjectHeading.selectOption(option);
         return this;
     }
 
-    public ContactUsFormSection enterEmailAddress(String email) {
+    private ContactUsFormSection enterEmailAddress(String email) {
         emailAddressInput.fill(email);
         return this;
     }
 
-    public ContactUsFormSection enterOrderReference(String order) {
+    private ContactUsFormSection enterOrderReference(String order) {
         orderReferenceInput.fill(order);
         return this;
     }
 
-    public ContactUsFormSection selectFileToUpload(String path) {
+    private ContactUsFormSection selectFileToUpload(String path) {
         fileUploadInput.setInputFiles(Paths.get(path));
         return this;
     }
 
-    public ContactUsFormSection enterMessage(String message) {
+    private ContactUsFormSection enterMessage(String message) {
         messageText.fill(message);
         return this;
+    }
+
+    public ContactUsFormSection sendContactUsForm(ContactUsDTO dto) {
+        selectSubjectHeading(dto.getSubjectHeading())
+                .enterEmailAddress(dto.getEmailAddress())
+                .enterOrderReference(dto.getOrderReference())
+                .selectFileToUpload(dto.getFileToUpload())
+                .enterMessage(dto.getMessage())
+                .clickSendMessageButton();
+        return  this;
     }
 }
