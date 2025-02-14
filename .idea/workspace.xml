@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="added more simple tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/TableUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_10TableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_1PageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_2InputTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_3TextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_4DropdownTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_5CheckboxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_7RadiobuttonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_8DynamicElementsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_6/_9KeyboardMouseTest.java" afterDir="false" />
+    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="added module_6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/common/BaseTestWithBasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/common/BaseTestWithRecording.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/common/BaseTestWithTrace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_10WindowsHandlingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_11StorageStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_12JavaScriptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_1IFrameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_2ShadowDOMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_3DialogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_4DownloadFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_5UploadFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_6ScreenshotsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_7VideoRecordingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_8TracingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_7/_9BasicAuthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,101 +57,101 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Practice.shouldVerifyAllProductPricesAbove15">
-    <configuration name="Practice.shouldVerifyAllProductPricesAbove15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Practice.shouldDisplaySuccessMessageTest">
+    <configuration name="Practice.shouldDisplaySuccessMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.module_6.*" />
+          <option name="PATTERN" value="org.example.module_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_6.Practice" />
-      <option name="METHOD_NAME" value="shouldVerifyAllProductPricesAbove15" />
+      <option name="PACKAGE_NAME" value="org.example.module_7" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_7.Practice" />
+      <option name="METHOD_NAME" value="shouldDisplaySuccessMessageTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.shouldVerifyAllProductsContainsPrinted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.shouldNotSendAMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.module_6.*" />
+          <option name="PATTERN" value="org.example.module_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_6.Practice" />
-      <option name="METHOD_NAME" value="shouldVerifyAllProductsContainsPrinted" />
+      <option name="PACKAGE_NAME" value="org.example.module_7" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_7.Practice" />
+      <option name="METHOD_NAME" value="shouldNotSendAMessageTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.storeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_12JavaScriptTest.evalOnSelectorAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.module_6.*" />
+          <option name="PATTERN" value="org.example.module_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_6.Practice" />
-      <option name="METHOD_NAME" value="storeTest" />
+      <option name="PACKAGE_NAME" value="org.example.module_7" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_7._12JavaScriptTest" />
+      <option name="METHOD_NAME" value="evalOnSelectorAllTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_10TableTest.shouldReturnAllTextFromTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_12JavaScriptTest.evalOnSelectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.module_6.*" />
+          <option name="PATTERN" value="org.example.module_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_6._10TableTest" />
-      <option name="METHOD_NAME" value="shouldReturnAllTextFromTable" />
+      <option name="PACKAGE_NAME" value="org.example.module_7" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_7._12JavaScriptTest" />
+      <option name="METHOD_NAME" value="evalOnSelectorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_10TableTest.shouldReturnAllUsersFromTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_12JavaScriptTest.evaluateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playwright_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.module_6.*" />
+          <option name="PATTERN" value="org.example.module_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.module_6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.module_6._10TableTest" />
-      <option name="METHOD_NAME" value="shouldReturnAllUsersFromTable" />
+      <option name="PACKAGE_NAME" value="org.example.module_7" />
+      <option name="MAIN_CLASS_NAME" value="org.example.module_7._12JavaScriptTest" />
+      <option name="METHOD_NAME" value="evaluateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Practice.shouldVerifyAllProductPricesAbove15" />
-      <item itemvalue="JUnit.Practice.shouldVerifyAllProductsContainsPrinted" />
-      <item itemvalue="JUnit.Practice.storeTest" />
-      <item itemvalue="JUnit._10TableTest.shouldReturnAllTextFromTable" />
-      <item itemvalue="JUnit._10TableTest.shouldReturnAllUsersFromTable" />
+      <item itemvalue="JUnit.Practice.shouldDisplaySuccessMessageTest" />
+      <item itemvalue="JUnit.Practice.shouldNotSendAMessageTest" />
+      <item itemvalue="JUnit._12JavaScriptTest.evalOnSelectorAllTest" />
+      <item itemvalue="JUnit._12JavaScriptTest.evalOnSelectorTest" />
+      <item itemvalue="JUnit._12JavaScriptTest.evaluateTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Practice.shouldVerifyAllProductPricesAbove15" />
-        <item itemvalue="JUnit.Practice.shouldVerifyAllProductsContainsPrinted" />
-        <item itemvalue="JUnit.Practice.storeTest" />
-        <item itemvalue="JUnit._10TableTest.shouldReturnAllUsersFromTable" />
-        <item itemvalue="JUnit._10TableTest.shouldReturnAllTextFromTable" />
+        <item itemvalue="JUnit.Practice.shouldDisplaySuccessMessageTest" />
+        <item itemvalue="JUnit.Practice.shouldNotSendAMessageTest" />
+        <item itemvalue="JUnit._12JavaScriptTest.evalOnSelectorAllTest" />
+        <item itemvalue="JUnit._12JavaScriptTest.evalOnSelectorTest" />
+        <item itemvalue="JUnit._12JavaScriptTest.evaluateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739351173713</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added module_6">
+      <created>1739367329910</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739367329910</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +258,7 @@
     <MESSAGE value="added css and xpath selectors" />
     <MESSAGE value="changed locators to recommended by PW docs" />
     <MESSAGE value="added more simple tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more simple tests" />
+    <MESSAGE value="added module_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="added module_6" />
   </component>
 </project>
