@@ -28,12 +28,13 @@ class SendContactUsFormTest extends BaseTest {
     @Test
     void shouldFillAndSendContactFormTest() {
         ContactUsPage contactUsPage = homePage.getTopMenuSection().clickOnContactUsLink();
-        contactUsPage.getContactUsFormSection().selectSubjectHeading("2");
-        contactUsPage.getContactUsFormSection().enterEmailAddress("tom@gmail.com");
-        contactUsPage.getContactUsFormSection().enterOrderReference("123");
-        contactUsPage.getContactUsFormSection().selectFileToUpload("uploads/sample-text-file.txt");
-        contactUsPage.getContactUsFormSection().enterMessage("test message");
-        contactUsPage.getContactUsFormSection().clickSendMessageButton();
+        contactUsPage.getContactUsFormSection()
+                .selectSubjectHeading("2")
+                .enterEmailAddress("tom@gmail.com")
+                .enterOrderReference("123")
+                .selectFileToUpload("uploads/sample-text-file.txt")
+                .enterMessage("test message")
+                .clickSendMessageButton();
 
         PlaywrightAssertions.assertThat(contactUsPage.getContactUsFormSection().getConfirmationMessageText()).isVisible();
     }

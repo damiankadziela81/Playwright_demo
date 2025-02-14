@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="added module_7">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/SendContactUsFormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/ContactUsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/sections/ContactUsFormSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/sections/TopMenuSection.java" afterDir="false" />
+    <list default="true" id="7c27961e-9dbe-4950-9466-d1bae080bde0" name="Changes" comment="added module_8 - Page Object Pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/module_8/SendContactUsFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/SendContactUsFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/sections/ContactUsFormSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/module_8/pages/sections/ContactUsFormSection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739531277920</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added module_8 - Page Object Pattern">
+      <created>1739538689426</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739538689426</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,6 +259,7 @@
     <MESSAGE value="added more simple tests" />
     <MESSAGE value="added module_6" />
     <MESSAGE value="added module_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="added module_7" />
+    <MESSAGE value="added module_8 - Page Object Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="added module_8 - Page Object Pattern" />
   </component>
 </project>

@@ -33,27 +33,33 @@ public class ContactUsFormSection extends BasePage {
         this.confirmationMessageText = page.getByText("Your message has been successfully sent to our team.");
     }
 
-    public void clickSendMessageButton() {
+    public ContactUsFormSection clickSendMessageButton() {
         sendMessageButton.click();
+        return this;
     }
 
-    public void selectSubjectHeading(String option) {
+    public ContactUsFormSection selectSubjectHeading(String option) {
         subjectHeading.selectOption(option);
+        return this;
     }
 
-    public void enterEmailAddress(String email) {
+    public ContactUsFormSection enterEmailAddress(String email) {
         emailAddressInput.fill(email);
+        return this;
     }
 
-    public void enterOrderReference(String order) {
+    public ContactUsFormSection enterOrderReference(String order) {
         orderReferenceInput.fill(order);
+        return this;
     }
 
-    public void selectFileToUpload(String path) {
+    public ContactUsFormSection selectFileToUpload(String path) {
         fileUploadInput.setInputFiles(Paths.get(path));
+        return this;
     }
 
-    public void enterMessage(String message) {
+    public ContactUsFormSection enterMessage(String message) {
         messageText.fill(message);
+        return this;
     }
 }
